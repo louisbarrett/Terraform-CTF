@@ -48,7 +48,7 @@ resource "aws_instance" "CTFServer" {
   instance_initiated_shutdown_behavior = "terminate"
 
 
-  # Install Inspector Agent
+  # Deploy ctfd
   provisioner "remote-exec" {
 
 
